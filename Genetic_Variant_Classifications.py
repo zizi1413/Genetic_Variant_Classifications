@@ -16,7 +16,7 @@ import xgboost
 from xgboost import XGBClassifier
 
 #%% Data Import
-data = pd.read_csv(r"/Users/zohrehsamieekadkani/Desktop/GitHub/untitled folder 2/Genetic-VariantClassifications.csv")
+data = pd.read_csv(r"/Genetic-VariantClassifications.csv")
 
 #%% Data Inspection
 print(data.head())  # Display the first few rows
